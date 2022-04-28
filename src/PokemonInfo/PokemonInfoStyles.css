@@ -1,0 +1,42 @@
+.pokemonCard {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, 
+        minmax(
+            150px,
+            1f
+        )
+        );
+    gap: 16px;
+    border-radius: 30px;
+    padding: 2rem;
+    background-image: url(https://cdn131.picsart.com/275970220025201.png);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: white;
+    transition: all 0.4s ease;
+    
+}
+.pokemonCard:hover {
+    transform: translateY(-15px);
+}
+.position {
+    position: relative;
+}
+.initialImg {
+    width: 11rem;
+    height: 11rem;
+    
+}
+.txtCard {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 15px;
+ 
+}
+.type-abilities {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.logo {
+    width: 260px;
+    
+}
+.sectionCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow
+
+}
+.infoCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #035397;
+    box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -moz-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+}
+.pokemonsCard {
+    width: 75%;
+    padding: 2rem;
+    
+}
+.movementsCard {
+    width: 25%;
+    border: solid black 1px;
+    overflow-y: scroll;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #035397;
+    box-shadow: 10px 9px 10px 3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 10px 9px 10px 3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 9px 10px 3px rgba(0,0,0,0.51);
+    margin: 10px;
+
+}
+.pokeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+}
+.abilitiesCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 1px;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #035397;;
+    box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -moz-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+}
+.color {
+    background-color: aqua;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.statsCard {
+    padding: 2rem;
+}
+.statsCard span p {
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+.txtCenter {
+    text-align: center;
+}
+.bar {
+    margin-top: 15px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 45%;
+}
+.statsBar{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+progress{
+    font-size: 3.5rem;
+    margin-left: 15px;
+}
+.navDetail{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 20px 40px;
+}
+@media(min-width: 200px) {
+    .movementsCard {
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .movementsCard{
+        display: flex;
+        justify-content: center;
+    }
+}
+span.pokeImg {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #FCFFE7;
+    box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+    -moz-box-shadow: 16px 14px 5px 0px rgba(0,0,0,0.89);
+}
+div.movementsCard ul li {
+    text-align: left;
+}

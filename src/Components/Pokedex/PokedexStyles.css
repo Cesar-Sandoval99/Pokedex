@@ -1,0 +1,151 @@
+.listStyles {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.columns {
+    padding: 1.5rem;
+}
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttonPages {
+    padding: .5rem;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: #084594;
+    box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.89);
+    -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.89);
+    transition: all 0.4s ease;
+}
+.buttonPages:hover {
+    transform: translateY(-10px);
+}
+.search {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.color {
+    background-color: yellow;
+}
+select, input {
+    background-color: rgba(0,0,0,0.2);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+}
+.searchButton {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #035397;
+    transition: all 0.4s ease;
+}
+.searchButton:hover {
+    background-color: red;
+}
+h2 {
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: red;
+    color: white;
+}
+header.nav div ul{
+    display: flex;
+}
+header.nav div ul li{
+    padding-left: 10px;
+}
+@media(min-width: 200px){
+    .resume-small{
+        width: 78%;
+    }
+    .invisible{
+        display: none;
+    }
+    
+    
+}
+@media(min-width: 768px) {
+    .burger-leave{
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        width: auto;
+    }
+    nav .menu li{
+        display: inline-block
+    }
+    .invisible{
+        display: none;
+    }
+    .flex{
+        display: flex;
+    }
+    
+}
+.hamburguer{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.position{
+    position: relative;
+}
+.buttonHome {
+    position: fixed;
+    left: 90%;
+    right: 50%;
+    top: 90%;
+    border: none;
+}
+.visibleMenu {
+    background-color: black;
+    list-style: none;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px; 
+    border: none;
+    border-radius: 10;
+}
+
+.buttonInvisible {
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+}
+header.nav h2 {
+    font-weight: 600;
+    color: black;
+    font-size: 2rem;
+}
+button.buttonHome p {
+    font-size: 1rem;
+}
+div input.text{
+    color: aliceblue;
+}
+div select option{
+    background-color: #E0D8B0;
+}
+div input {
+    background-color: #E0D8B0;
+}
+select {
+    background-color: #FF1818;
+}
